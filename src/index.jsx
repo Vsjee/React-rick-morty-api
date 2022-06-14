@@ -7,6 +7,7 @@ import { Rick } from './routes/rick';
 import { Morty } from './routes/morty';
 import { Annie } from './routes/annie';
 import { Antenna } from './routes/antenna';
+import { Random } from './routes/random';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
           <Route path='morty' element={<Morty />}/>
           <Route path='annie' element={<Annie />}/>
           <Route path='antenna' element={<Antenna />}/>
+          <Route path='random' element={<Random />}/>
         </Route>
       </Routes>
     </BrowserRouter>

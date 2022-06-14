@@ -21,6 +21,7 @@ function App() {
         <Link to='/morty' className='link--item'>Morty Smith</Link>
         <Link to='/Annie' className='link--item'>Annie</Link>
         <Link to='/Antenna' className='link--item'>Antenna Rick</Link>
+        <Link to='/Random' className='link--item'>Random</Link>
       </nav>
       <Outlet />
     </div>
