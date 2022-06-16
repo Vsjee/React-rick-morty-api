@@ -1,13 +1,12 @@
-import '../App.css'
+import '../App.css';
 
 const CharacterCard = ({ info }) => {
-
   const { imgURL, name, gender, specie, status, location, origin } = info;
 
   return (
-    <div className="App">
+    <div className='App'>
       <div className='App--cont'>
-        <img src={imgURL} alt="Character_Image" width="200px" />
+        <img src={imgURL} alt='Character_Image' width='200px' />
         <ul className='App--cont--list'>
           <li>
             <span>Name:</span> {name}
@@ -29,8 +28,8 @@ const CharacterCard = ({ info }) => {
           </li>
         </ul>
       </div>
-    </div >
+    </div>
   );
-}
+};
 
 export default CharacterCard;
